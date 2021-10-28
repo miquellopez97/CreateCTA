@@ -5,33 +5,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iconos Eventos</title>
 </head>
 
 <body>
 
-    <center>
-        <div style="text-align: center; display: inline-block;">
-            <div style="display: inline-block;vertical-align: top;">
-                <a style="text-decoration: none;color:#000;display: inline-block;padding: 10px;margin: 25px;">
-                    <center><img alt="Cuándo" style=";object-fit: cover;" src="https://image.communication.salleurl.edu/lib/fe5415707c6103757313/m/5/8a9e38c1-a989-4ba4-93cf-390338982aa0.png">
-                    </center>
-                </a><br><a style="text-decoration: none; color: #000;display: inline-block;"><strong>¿Cuándo?</strong><br>Jueves
-                    28<br>Octubre, 2021</a></div>
-            <div style="display: inline-block;vertical-align: top">
-                <a style="text-decoration: none;color: #000;display: inline-block;padding: 10px;margin: 25px;">
-                    <center><img alt="Qué hora" style="object-fit: cover;" src="https://image.communication.salleurl.edu/lib/fe5415707c6103757313/m/5/7c40e6fb-56d8-411b-8bd7-8f094d15b7cf.png">
-                    </center>
-                </a><br><a style="text-decoration: none; color: #000;display: inline-block;"><strong>¿Qué
-                        hora?</strong><br>18:00</a></div>
-            <div style="display: inline-block;vertical-align: top">
-                <a style="text-decoration: none;color:#000;display: inline-block;padding: 10px;margin: 25px;">
-                    <center><img alt="Dónde" style="object-fit: cover;" src="https://image.communication.salleurl.edu/lib/fe5415707c6103757313/m/5/c4efdf83-1fe3-4209-a20b-a400a452020f.png">
-                    </center>
-                </a><br><a style="text-decoration: none; color: #000;display: inline-block;"><strong>¿Dónde?</strong><br>Aula
-                    Virtual</a></div>
+    <style>
+        .divGeneral {
+            text-align: center;
+        }
+
+        .divIndividual {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .imagen {
+            display: inline-block;
+            margin: 0.5em 1em;
+            object-fit: cover;
+        }
+
+        .titulo {
+            font-size: 1.15em;
+            font-weight: bold;
+            margin: 0px;
+            margin-bottom: 0.5em;
+        }
+
+        .texto {
+            margin: 0px;
+        }
+    </style>
+    <div class="divGeneral">
+        <div class="divIndividual">
+            <a class="imagen">
+                <img alt="Cuándo"
+                    src="https://image.communication.salleurl.edu/lib/fe5415707c6103757313/m/5/8a9e38c1-a989-4ba4-93cf-390338982aa0.png">
+            </a><br><a>
+                <p class="titulo">¿Cuándo?</p>
+                <p class="texto">Jueves 28<br>Octubre, 2021</p>
+            </a>
         </div>
-    </center>
+        <div class="divIndividual">
+            <a class="imagen">
+                <img alt="Qué hora"
+                    src="https://image.communication.salleurl.edu/lib/fe5415707c6103757313/m/5/7c40e6fb-56d8-411b-8bd7-8f094d15b7cf.png">
+            </a><br><a>
+                <p class="titulo">¿Qué hora?</p>
+                <p class="texto">18:00</p>
+            </a>
+        </div>
+        <div class="divIndividual">
+            <a class="imagen">
+                <img alt="Dónde"
+                    src="https://image.communication.salleurl.edu/lib/fe5415707c6103757313/m/5/c4efdf83-1fe3-4209-a20b-a400a452020f.png">
+            </a><br><a>
+                <p class="titulo">¿Dónde?</p>
+                <p class="texto">Aula Virtual</p>
+            </a>
+        </div>
+    </div>
 </body>
 
 </html>
